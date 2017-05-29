@@ -1,0 +1,11 @@
+{
+  "name": "ecust-library-scraper",
+  "version": "0.9.0",
+  "description": "Ecust library scraper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Fisher",
+  "license": "ISC"
+}
