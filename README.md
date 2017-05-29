@@ -4,6 +4,24 @@
 
 A scraper for Ecust Library based on *NodeJs*.
 
+## Installation
+
+```bash
+npm install --save ecust-library-scraper
+```
+
+## Usage Examples
+
+### Library Status
+
+```js
+const LibraryStatus = require('ecust-library-scraper/status');
+
+LibraryStatus.status().then(status => {
+	console.log('Ecust Library Status: ', status);
+}).catch(ex => console.error(ex));
+```
+
 ## HTTP Client
 
 Internally, `Ecust Library Scraper` uses [`curlrequest`][github-curl-request] as HTTP client.
