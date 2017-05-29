@@ -15,5 +15,20 @@
   "devDependencies": {
     "chai": "^4.0.0",
     "mocha": "^3.4.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "files": [
+    "status",
+    "tests",
+		".gitignore",
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "Ecust",
+    "Library",
+    "Scraper"
+  ]
 }
