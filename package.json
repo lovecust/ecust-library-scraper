@@ -4,7 +4,7 @@
   "description": "Ecust library scraper.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests --timeout 6000"
   },
   "author": "Fisher",
   "license": "ISC",
